@@ -1,0 +1,35 @@
+{
+    "users": [{
+            "name": "m1",
+            "role": "manager"
+        },
+        {
+            "name": "m2",
+            "role": "manager"
+        },
+        {
+            "name": "m3",
+            "role": "manager"
+        },
+        {
+            "name": "c1",
+            "role": "consultant",
+            "rto": "m1"
+        },
+        {
+            "name": "c2",
+            "role": "consultant",
+            "rto": "m1"
+        },
+        {
+            "name": "c3",
+            "role": "consultant",
+            "rto": "m1"
+        },
+        {
+            "name": "c4",
+            "role": "consultant",
+            "rto": "m1"
+        }
+    ]
+}

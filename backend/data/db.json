@@ -1,0 +1,142 @@
+[
+  {
+    "id": "E11",
+    "password":"pass",
+    "first": "Bucky",
+    "last": "Roberts",
+    "age": 33,
+    "role":"employee",
+    "managerid":"M11",
+    "userpic":"one",
+    "performance":9,
+    "tasks":["UI","services"]
+  },
+  {
+    "id": "E12",
+    "password":"pass",
+    "first": "Glenn",
+    "last": "Maxwell",
+    "age": 26,
+    "role":"employee",
+    "managerid":"M11",
+    "userpic":"two",
+    "performance":8,
+    "tasks":["UI","services"]
+  },
+  {
+    "id": "E13",
+    "password":"pass",
+    "first": "Daniel",
+    "last": "Vettori",
+    "age": 34,
+    "role":"employee",
+    "managerid":"M11",
+    "userpic":"three",
+    "performance":7,
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E14",
+    "password":"pass",
+    "first": "Richard",
+    "last": "Minney",
+    "age": 45,
+    "role":"employee",
+    "managerid":"M11",
+    "userpic":"four",
+    "performance":6,
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E15",
+    "password":"pass",
+    "first": "Clint",
+    "last": "Eastwood",
+    "age": 23,
+    "role":"employee",
+    "managerid":"M11",
+    "userpic":"five",
+    "performance":5,
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E16",
+    "password":"pass",
+    "first": "Monica",
+    "last": "Cellus",
+    "age": 36,
+    "role":"employee",
+    "managerid":"M12",
+    "userpic":"one",
+    "performance":"9",
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E17",
+    "password":"pass",
+    "first": "Mike",
+    "last": "Hannigan",
+    "age": 35,
+    "role":"employee",
+    "managerid":"M12",
+    "userpic":"two",
+    "performance":"9",
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E18",
+    "password":"pass",
+    "first": "Sai",
+    "last": "Ram",
+    "age": 24,
+    "role":"employee",
+    "managerid":"M12",
+    "userpic":"three",
+    "performance":"9",
+    "tasks":["UI","services"]
+  },
+  {
+    "id":  "E19",
+    "password":"pass",
+    "first": "Julio",
+    "last": "Gomez",
+    "age": 27,
+    "role":"employee",
+    "managerid":"M12",
+    "userpic":"four",
+    "performance":"9",
+    "tasks":["UI","services"]
+  },
+  {
+    "id": "E20",
+    "password":"pass",
+    "first": "Madison",
+    "last": "Williams",
+    "age": 34,
+    "role":"employee",
+    "managerid":"M12",
+    "userpic":"five",
+    "performance":"9",
+    "tasks":["UI","services"]
+  },
+  {
+    "id": "M11",
+    "password":"pass",
+    "first": "Leela",
+    "last": "Mohan",
+    "age": 28,
+    "role":"manager",
+    "managerid":null,
+    "userpic":"one"
+  },
+  {
+    "id": "M12",
+    "password":"pass",
+    "first": "Ram",
+    "last": "Chandran",
+    "age": 50,
+    "role":"manager",
+    "managerid":null,
+    "userpic":"two"
+  }
+]

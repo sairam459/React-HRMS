@@ -1,0 +1,186 @@
+.mainPage {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  background-image: url("../resources/images/background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  text-align: center;
+}
+.loginbox {
+  border: 1px solid rgb(206, 204, 204);
+  padding: 8px;
+  margin: auto;
+  height: 300px;
+  width: 400px;
+}
+
+.tasks {
+  display: inline-flex;
+}
+
+.navigation {
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+
+.userbg {
+  height: 100%;
+  width: 100%;
+}
+
+.analysis {
+  margin-top: 50px;
+}
+
+.content {
+  flex: 1;
+  scroll-behavior: smooth;
+  /* overflow-y: auto; */
+  display: flex;
+  min-height: 500px;
+  margin: 20px;
+}
+.lastitem {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+.bodyregion {
+  /* padding-left: 300px; */
+}
+
+.editemployee {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee {
+  flex: 1;
+  margin: 0px 20px;
+}
+
+.employeelist {
+  flex: 1;
+}
+
+.addEmployee {
+  flex: 1;
+}
+.listheader {
+  display: flex;
+  flex: 1;
+}
+.myaccount {
+  flex: 1;
+  margin: 30px;
+}
+.App {
+  background: #607d8b;
+  height: 100%;
+  width: 100%;
+  color: #dedede;
+  text-align: center;
+}
+
+.brandlogo {
+  padding-right: 20px;
+}
+
+.user {
+  height: 100;
+}
+.list {
+  height: 100;
+}
+
+.dashboard {
+  height: 100%;
+  width: 100%;
+}
+
+.snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+.snackbar.show {
+  visibility: visible; /* Show the snackbar */
+
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
